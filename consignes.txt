@@ -3,7 +3,7 @@ Menu nav cliquable sur "Online shop" pour accéder à Single Bottles
 Ne pas faire les awards + les gommettes
 Pour récupérer les images d'un site -> inspection, Elements -> Network; Img
 "The rosé collection" + le swiper / carousel X pas faire
-"Charolotte's top picks" à ne pas faire
+"Charlotte's top picks" à ne pas faire
 "About us ..." à ne pas faire
 "What people are saying" à ne pas faire
 "We're here to help" à ne pas faire
