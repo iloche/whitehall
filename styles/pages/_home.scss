@@ -1,0 +1,55 @@
+.whitehall-background{
+   background-image: url(../images/hero-vines_1920x700_crop_center.jpg);
+   height: 700px;
+   position: relative;
+   .whitehall-txt{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    small{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    h1{
+        margin: 15px 0 0 0;
+        font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+        font-weight: lighter;
+        font-size: 44px;
+    }
+   }
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    img{
+        width: 100%;
+    }
+}
+.main-family{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.collection-box-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    img{
+        width: 100%;
+    }
+}
+.grapevine-box-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+.discount{
+    background-color: #96958a;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #c1bfb17d;
+    .header-search{
+        position: relative;
+        display: flex;
+        align-items: center;
+        i{
+            position: absolute;
+            margin: 0 5px;
+            z-index: 5;
+        }
+        input{
+            position: absolute;
+            padding: 10px 25px;
+        }
+    }
+    .header-icons{
+        position: relative;
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 0 5px;
+            sup{
+                position: absolute;
+                color: white;
+                border-radius: 50%;
+                padding: 10px 5px;
+                background-color: #96958a;
+            }
+        }
+        
+    }
+}
+.header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: black;
+        padding: 10px 10px;
+    }
+}
