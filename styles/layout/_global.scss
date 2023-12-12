@@ -1,8 +1,56 @@
 body{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 .homepage .wrapper{
     width: 1300px;
     margin: 0 auto;
+}
+h1, h2, h4{
+    margin: 15px 0;
+    font-weight: lighter;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h4{
+    font-size: 28px;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(129, 129, 129);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.button, .button-grey{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(155, 152, 152);
+    &:hover{
+        text-decoration: underline;
+    } 
+}    
+.button-grey{
+    background-color: rgb(140, 140, 140);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    transition: .3s all ease-in-out;
+    &:hover{
+        background-color: rgb(155, 152, 152);
+    }
+}
+section{
+    margin-top: 40px;
 }

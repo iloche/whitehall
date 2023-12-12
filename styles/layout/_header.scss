@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-around;
     font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .header-logo{
     display: flex;
@@ -48,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     a{
         text-decoration: none;
         text-transform: uppercase;
