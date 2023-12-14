@@ -1,7 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
-.homepage .wrapper{
+.wrapper{
     width: 1300px;
     margin: 0 auto;
 }
@@ -22,6 +22,7 @@ h4{
     font-weight: bold;
     color: rgb(129, 129, 129);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 40px;
 }
 .button, .button-grey{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -35,7 +36,7 @@ h4{
     color: rgb(155, 152, 152);
     &:hover{
         text-decoration: underline;
-    } 
+    }
 }    
 .button-grey{
     background-color: rgb(140, 140, 140);
@@ -51,6 +52,13 @@ h4{
         background-color: rgb(155, 152, 152);
     }
 }
-section{
-    margin-top: 40px;
+.img-zoom{
+    overflow: hidden;
+    img{
+        display: block;
+        @include transition;
+        &:hover{
+            scale: 1.1;
+        }
+    }
 }

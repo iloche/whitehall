@@ -7,30 +7,36 @@
     <script src="https://kit.fontawesome.com/3379e155de.js" crossorigin="anonymous"></script>
     <title>Exercice n° - </title>
 </head>
-<body class="homepage">
+<body>
     <header>
-        <div class="discount">
-            <small>Free delivery on all orders over £100</small>
-            <small>Sign up to our newsletter for £5 off your first order</small>
-        </div>
-        <div class="header-logo">
-            <div class="header-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search...">
+        <div class="fixed-header">
+            <div class="discount-bckgd">
+                <div class="discount">
+                    <small>Free delivery on all orders over £100</small>
+                    <small>Sign up to our newsletter for £5 off your first order</small>
+                </div>
             </div>
-            <a href="#"><img src="images/wv_whitehall_logo_eb4332e2-6e50-4d86-9729-515e1ac2d0e0_300x.png" alt="WhiteHall Logo"></a>
-            <div class="header-icons">
-                <a href="#"><i class="fa-regular fa-user"></i></a>
-                <a href="#"><i class="fa-regular fa-heart"></i></a>
-                <a href="#"><i class="fa-solid fa-bag-shopping"></i><sup>0</sup></i></a>
+            <div class="logo-bckgd">
+                <div class="header-logo wrapper">
+                    <div class="header-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <a href="#"><img src="images/wv_whitehall_logo_eb4332e2-6e50-4d86-9729-515e1ac2d0e0_300x.png" alt="WhiteHall Logo"></a>
+                    <div class="header-icons">
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i><sup>0</sup></i></a>
+                    </div>
+                </div>
+                <nav class="header-nav">
+                    <a href="secondpage.html">Online shop</a>
+                    <a href="#">Whitehall vineyard</a>
+                    <a href="#">Stockists</a>
+                    <a href="#">News</a>
+                </nav>
             </div>
         </div>
-        <nav class="header-nav">
-            <a href="#">Online shop</a>
-            <a href="#">Whitehall vineyard</a>
-            <a href="secondpage.html">Stockists</a>
-            <a href="#">News</a>
-        </nav>
         <div class="whitehall-background">
             <div class="whitehall-txt">
                 <small class="subtitle">Award Winning wine from wiltshire</small>
@@ -39,58 +45,67 @@
         </div>
     </header>
     <main>
-        <div class="wrapper">
-            <section class="main-explore">
-                <div class="explore-txt">
-                    <small class="subtitle">Whitehall vineyard collection</small>
-                    <h2>Explore Whitehall vineyard</h2>
-                </div>
-                <div class="products">
-                    <div class="product">
-                        <a href="#">
+        <section class="main-explore wrapper">
+            <div class="explore-txt">
+                <small class="subtitle">Whitehall vineyard collection</small>
+                <h2 class>Explore Whitehall vineyard</h2>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <a href="#">
+                        <div class="img-zoom">
                             <img src="images/clubimage_500x_crop_center.png" alt="Mixed Cases">
-                            <h3>Mixed Cases</h3>
-                        </a>
-                    </div>
-                    <div class="product">
-                        <a href="#">
-                            <img src="images/news_500x_crop_center.png" alt="The Wine Club">
-                            <h3>The wine club</h3>
-                        </a>
-                    </div>
-                    <div class="product">
-                        <a href="#">
-                            <img src="images/abut_500x_crop_center.png" alt="The Family">
-                            <h3>The family</h3>
-                        </a>
-                    </div>
-                    <div class="product">
-                        <a href="#">
-                            <img src="images/theweine_500x_crop_center.png" alt="Single Bottles">
-                            <h3>Single bottles</h3>
-                        </a>
-                    </div>
+                        </div>
+                        <h3>Mixed Cases</h3>
+                    </a>
                 </div>
-            </section>
-        <section class="main-family">
-            <img src="images/DSC01342_560x630.png" alt="A family business">
-            <div class="main-family-box">
-                <div class="main-family-txt">
-                    <small class="subtitle">A family business</small>
-                    <h2>A new approach to farming by the self family</h2>
-                    <p>"Whitehall Farm has been in our family for five generations, since 1894. Our generation has decided to take a different approach to farming and diversify what we do. We have always had a passion for wine and to be able to create our very own English wine from our farm is a something we can be proud of". - Charlotte Self</p>
-                    <a href="#" class="button-grey">Who we are</a>
+                <div class="product">
+                    <a href="#">
+                        <div class="img-zoom">
+                            <img src="images/news_500x_crop_center.png" alt="The Wine Club">
+                        </div>
+                        <h3>The wine club</h3>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#">
+                        <div class="img-zoom">
+                            <img src="images/abut_500x_crop_center.png" alt="The Family">
+                        </div>
+                        <h3>The family</h3>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#">
+                        <div class="img-zoom">
+                            <img src="images/theweine_500x_crop_center.png" alt="Single Bottles">
+                        </div>
+                        <h3>Single bottles</h3>
+                    </a>
                 </div>
             </div>
         </section>
-        <section class="main-collection">
+        <section class="main-family">
+            <div class="wrapper">
+                <img src="images/DSC01342_560x630.png" alt="A family business">
+                <div class="main-family-box">
+                    <div class="main-family-txt">
+                        <small class="subtitle">A family business</small>
+                        <h2>A new approach to farming by the self family</h2>
+                        <p>"Whitehall Farm has been in our family for five generations, since 1894. Our generation has decided to take a different approach to farming and diversify what we do. We have always had a passion for wine and to be able to create our very own English wine from our farm is a something we can be proud of". - Charlotte Self</p>
+                        <a href="#" class="button-grey">Who we are</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-collection wrapper">
             <div class="main-collection-txt">
                 <small class="subtitle">Our favourite collections</small>
                 <h2>Our wine tailored to you...</h2>
             </div>
             <div class="collection-box-content">
                 <div class="collection-box">
-                    <div class="collection-box-img">
+                    <div class="collection-box-img img-zoom">
                         <img src="images/maddy_660x699_crop_center.webp" alt="Build your own case">
                     </div>
                     <div class="collection-box-txt-content">
@@ -105,7 +120,7 @@
                     </div>
                 </div>
                 <div class="collection-box">
-                    <div class="collection-box-img">
+                    <div class="collection-box-img img-zoom">
                         <img src="images/WHITEHALL_VINEYARD_PEOPLE_49_660x699_crop_center.webp" alt="Adopt a vine">
                     </div>
                     <div class="collection-box-txt-content">
@@ -118,15 +133,14 @@
                             <a href="#" class="button">Find out more</a>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
-        <section class="main-grapevine">
+        <section class="main-grapevine wrapper">
             <h2>On the grape vine</h2>
             <div class="grapevine-box-content">
                 <div class="grapevine-box">
-                    <div class="grapevine-img">
+                    <div class="grapevine-img img-zoom">
                         <img src="images/Screenshot_2023-06-26_at_15.19.11_400x.webp" alt="Businesswoman 2023">
                     </div>
                     <div class="grapevine-txt">
@@ -137,7 +151,7 @@
                     </div>
                 </div>
                 <div class="grapevine-box">
-                    <div class="grapevine-img">
+                    <div class="grapevine-img img-zoom">
                         <img src="images/Screenshot_2023-06-26_at_15.33.48_400x.webp" alt="Decanter world wine 2023">
                     </div>
                     <div class="grapevine-txt">
@@ -148,7 +162,7 @@
                     </div>
                 </div>
                 <div class="grapevine-box">
-                    <div class="grapevine-img">
+                    <div class="grapevine-img img-zoom">
                         <img src="images/E-Voucher_SQ_New-min-1499x1578_400x.webp" alt="Online order">
                     </div>
                     <div class="grapevine-txt">
@@ -159,65 +173,57 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="main-button">
+            <div class="main-button">
             <a href="#" class="button-grey">The latest from whitehall vineyard</a>
         </div>
-    </div>
+        </section>
     </main>
     <footer>
-        <section class="footer-nav">
-            <div class="footer-logo">
-                <img src="images/10281361_2_92x.webp" alt="WhiteHall Logo">
-            </div>
-            <div class="footer-about">
-                <ul>About
-                    <li>Whitehall Vineyard</li>
-                    <li>White Club</li>
-                    <li>On the Grape Vine</li>
-                    <li>Apply for a Trade Account</li>
-                    <li>My account</li>
-                    <li>Drink Responsibly</li>
-                </ul>
-            </div>
-            <div class="footer-customer">
-                <ul>Customer
-                    <li>Delivery & Returns</li>
-                    <li>Contact Us</li>
-                    <li>FAQ's</li>
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
-                    <li>Adopt a Vine T&C's</li>
-                    <li>Gift Card T&C's</li>
-                    <li>Terms & Conditions</li>
-                    <li>Payments</li>
-                </ul>
-            </div>
-            <div class="newsletter">
-                <h4>Newsletter sign up</h4>
-                <p>Please sign up to our newsletter to keep up to date with the latest products, offers and personalised recommendations for you.</p>
-                <div class="newsletter-box">
-                    <input type="text" placeholder="Enter email address">
-                    <a href="#">Sign up</a>
+        <section class="footer-nav wrapper">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="images/10281361_2_92x.webp" alt="WhiteHall Logo">
+                    </a>
                 </div>
-                <div class="socials">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                <div class="footer-about">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Whitehall Vineyard</a></li>
+                        <li><a href="#">White Club</a></li>
+                        <li><a href="#">On the Grape Vine</a></li>
+                        <li><a href="#">Apply for a Trade Account</a></li>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Drink Responsibly</a></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li><i class="fa-brands fa-amazon"></i></li>
-                    <li><i class="fa-brands fa-cc-amex"></i></li>
-                    <li><i class="fa-brands fa-apple-pay"></i></li>
-                    <li><i class="fa-brands fa-cc-diners-club"></i></li>
-                    <li><i class="fa-brands fa-cc-discover"></i></li>
-                    <li><i class="fa-brands fa-google-pay"></i></li>
-                    <li><i class="fa-brands fa-cc-mastercard"></i></li>
-                    <li><i class="fa-brands fa-cc-mastercard"></i></li>
-                    <li><i class="fa-brands fa-cc-stripe"></i></li>
-                    <li><i class="fa-brands fa-alipay"></i></li>
-                    <li><i class="fa-brands fa-cc-visa"></i></li>
-                </ul>
+                <div class="footer-about">
+                    <ul>
+                        <li><a href="#">Customer</a></li>
+                        <li><a href="#">Delivery & Returns</a></li>
+                        <li><a href="#">Contact Us</li></a>
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Adopt a Vine T&C's</a></li>
+                        <li><a href="#">Gift Card T&C's</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <h4>Newsletter sign up</h4>
+                    <p>Please sign up to our newsletter to keep up to date with the latest products, offers and personalised recommendations for you.</p>
+                    <div class="newsletter-box">
+                        <input type="text" placeholder="Enter email address">
+                        <a href="#">Sign up</a>
+                    </div>
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="credits">
