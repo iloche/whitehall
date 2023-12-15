@@ -147,6 +147,7 @@
 .introduction{
     background-color: rgb(251, 251, 251);
     text-align: center;
+    margin:0 0 40px 0;
     h1{
         margin: 0;
         padding: 50px 0;
@@ -155,14 +156,39 @@
 .bottles{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     .product-img{
         img{
             width: 100%;
-        };
+        }
     }
 }
 .bottle__big{
     grid-column: span 2;
     grid-row: span 2;
+}
+.product-txt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 19px;
+    .bottle-price{
+        justify-self: end;
+    }
+    .bottle-year{
+        font-style: italic;
+        color: $maincolor;
+        font-size: 12px;
+    }
+}
+article:last-child{
+    margin: 0 0 40px 0;
+}
+.description{
+    text-align: center;
+}
+article:hover{
+    .product-img{
+        background-image: url(../images/pinot191_628x628.png);
+    }
 }
